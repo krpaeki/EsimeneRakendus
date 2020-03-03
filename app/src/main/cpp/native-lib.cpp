@@ -7,7 +7,7 @@ auto randomNumber(int start, int end){
     std::uniform_int_distribution<int> dist(start, end);
     return dist(en);
 }
-
+//Random number generator 1st 6ni
 extern "C" JNIEXPORT jint JNICALL
 Java_com_tlu_esimenerakendus_MainActivity_randomDice(
         JNIEnv* env,
